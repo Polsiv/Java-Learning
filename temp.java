@@ -7,6 +7,10 @@ public class temp {
 
 
         double avg = 0, counter = 0;
+
+        double larger_temp = 0;
+        double lower_temp = 100;
+
         double[] measure = new double[7];
 
         Scanner keyboard = new Scanner(System.in);
@@ -20,8 +24,6 @@ public class temp {
 
         for(int i = 0; i < 7; ++i){
 
-            larger_temp = 0;
-
             if(measure[i] > larger_temp){
 
                 larger_temp = measure[i];
@@ -30,11 +32,9 @@ public class temp {
 
         for(int i = 0; i < 7; ++i){
 
-            lower_temp = 1000;
-
             if(measure[i] < lower_temp){
 
-                lower_temp= measure[i];
+              lower_temp= measure[i];
             }
         }
 
@@ -45,9 +45,12 @@ public class temp {
 
     }
 
-            avg = counter/(measure.lenght());
+            avg = counter/(measure.length);
+            
             System.out.printf("the highest temperature is: %.2f \nthe lower temperature is: %.2f \n",larger_temp,lower_temp);
-            System.out.println("the average ois "+ avg);
+            System.out.println("the average is "+ avg);
+
+            keyboard.close();
 
         }
     }
