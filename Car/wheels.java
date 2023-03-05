@@ -2,13 +2,15 @@ public class wheels {
     private int comp;
 
     public wheels(int Compuesto){
-        this.comp = Compuesto;
+        setComp(Compuesto);
     }
 
     @Override
     public String toString() {
         return ("Wheel's compuesto: " + getComp());
     }
+
+    
 
     public int getComp() {
         return comp;

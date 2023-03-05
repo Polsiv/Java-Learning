@@ -4,8 +4,8 @@ public class motor {
 
     //cosntructors
     public motor(String Serial, String Brand){
-        this.brand = Brand;
-        this.serial = Serial;
+       setBrand(Brand);
+       setSerial(Serial);
     }
 
     //Getters
@@ -26,6 +26,6 @@ public class motor {
 
     //string tostring
     public String toString(){
-        return "Brand: " + this.brand + " Serial: " + this.serial;
+        return "Brand: " + getBrand()+ " Serial: " + getSerial();
     }
 }
