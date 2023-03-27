@@ -2,7 +2,7 @@ public class motor {
     private String  serial;
     private String brand;
 
-    //cosntructors
+    //constructors
     public motor(String Serial, String Brand){
        setBrand(Brand);
        setSerial(Serial);
