@@ -1,4 +1,3 @@
-
 class players {
     private String name;
     private String lastName;
@@ -9,7 +8,12 @@ class players {
 
 
 public players(){
-
+name="";
+lastName = "";
+height = 0;
+age = 0;
+dorsal = 0;
+position = "";
 };
 
 public players(String Name, String Lastname, double Height, int Age, int Dorsal, String Position){
@@ -30,10 +34,6 @@ public players(String Name, String Lastname, double Height, int Age, int Dorsal,
 return "The data for the player is \n Name: " + this.name + "\nLastname: " + this.lastName + "\nHeight; " + getHeight() + "\n Dorsal: " + getDorsal() + "\n Position: " + this.position;
 
     }
-
-
-
-
 
     public String getName() {
         return name;

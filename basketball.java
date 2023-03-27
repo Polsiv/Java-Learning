@@ -3,7 +3,26 @@ import java.util.Scanner;
 public class basketball {
     public static void main (String[] args){
 
+//FIRST====================================================
+
 players Player1 = new players();
+
+//SECOND ==================================================
+
+players Player2 = new players("Silv", "Gon", 1.53, 18, 20, "pivot");
+
+//Third ==================================================
+
+players Player3 = new players();
+
+Player3.setname("Karen");
+Player3.setLastName("Carter");
+Player3.setHeight(1.66);
+Player3.setAge(20);
+Player3.setDorsal(90);
+Player3.setPosition(30);
+
+//KEYBOARD
 
 Scanner keyboard = new Scanner(System.in);
 
