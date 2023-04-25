@@ -1,0 +1,1 @@
+Hellow there profe, le reenvío el parcial con mejores especificaciones a la hora de mostrar errores por pantalla, que al insertar una cantidad equivocada, el anterior que envié no especificaba muy bien. Igualmente ahí le dejo la prueba de que envié el parcial antes de tiempo.
