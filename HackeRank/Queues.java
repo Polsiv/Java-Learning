@@ -13,6 +13,18 @@ public class Queues{
 
         System.out.println(line);
 
+        //removing the first element
+
+        line.poll();
+        System.out.println(line);
+
+        //printing the removed element
+        //System.out.println(line.poll());
+
+
+        
+        System.out.println(line.peek());
+
 
     }
 }
