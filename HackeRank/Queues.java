@@ -21,9 +21,28 @@ public class Queues{
         //printing the removed element
         //System.out.println(line.poll());
 
-
         
         System.out.println(line.peek());
+
+        System.out.println("===================================================");
+
+        Queue<String> q = new LinkedList<String>();
+
+        q.add("A");
+        q.add("b");
+        q.add("C");
+
+        //printing the queue size
+        System.out.println(q.size());
+
+        //returns boolean depending if it contains a certain element or not
+        System.out.println(q.contains("b"));
+
+        //turns the queue into an array
+        //System.out.println(q.toArray());
+
+        //printing n-th element of the array
+        System.out.println(q.toArray()[1]);
 
 
     }
