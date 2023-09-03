@@ -97,6 +97,5 @@ public class Deques {
             System.out.println(i);
         }
 
-        deque.stream().forEach(l);
     }
 }
